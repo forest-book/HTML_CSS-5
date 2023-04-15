@@ -4,9 +4,34 @@
   box-sizing: border-box;
 }
 
+
+/* header */
 header {
   width: 90%;
   padding: 20px 0;
   margin: 0 auto;
   text-align: center;
+}
+
+header .heading {
+  font-size: 30px;
+}
+
+
+/* navigation */
+nav {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+.nav-item {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.nav-item-list {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
